@@ -30,7 +30,7 @@
 		require_once('mysqli_connect.php');
 		$city_name = $request->getAttribute('city_name');
 
-		$query = "SELECT name,country FROM airports WHERE city='$city_name' ORDER BY name ASC";
+		$query = "SELECT id,name,country FROM airports WHERE city='$city_name' ORDER BY name ASC";
 
 		$result = $mysqli->query($query);
 		
