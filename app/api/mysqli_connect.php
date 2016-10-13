@@ -14,10 +14,10 @@ DELETE : Delete existing rows (Remove privilege if not required)
 */
 
 // Defined as constants so that they can't be changed
-DEFINE ('DB_USER', 'mueaehyfct');
-DEFINE ('DB_PASSWORD', 'WZJxKSE9sT');
+DEFINE ('DB_USER', 'tripbuilder');
+DEFINE ('DB_PASSWORD', 'trip');
 DEFINE ('DB_HOST', 'localhost');
-DEFINE ('DB_NAME', 'mueaehyfct');
+DEFINE ('DB_NAME', 'tripbuilder');
 
 // $conn will contain a resource link to the database
 // @ keeps the error from showing in the browser
