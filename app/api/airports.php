@@ -4,7 +4,7 @@
 	
 		require_once('mysqli_connect.php');
 
-		$query = "SELECT name,city,country FROM airports ORDER BY name ASC";
+		$query = "SELECT id,name,city,country FROM airports ORDER BY name ASC";
 
 		$result = $mysqli->query($query);
 
